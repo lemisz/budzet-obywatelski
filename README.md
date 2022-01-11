@@ -24,7 +24,7 @@ Projekt platformy służącej do obsługi pomysłów na spożytkowanie środków
 * Layout - w całości, ale nie jest responsywny
 * Formularz "Dodaj nowy pomysł", łącznie z walidacją
 * Karta pomysłu - przechodzenie do szczegółów z widoku głównego
-* Głosowanie na pomysły dla zalogowanego użytkownika
+* Głosowanie - oddawanie głosu na pomysły dla zalogowanego użytkownika
 * Sumowanie głosów
 * Filtrowanie pomysłów po statusie
 * Filtrowanie pomysłów po kategorii

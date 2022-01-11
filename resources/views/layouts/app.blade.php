@@ -18,9 +18,9 @@
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body class="font-sans bg-gray-100 text-gray-900 text-sm">
-        <header class="flex items-center justify-between px-8 py-4">
+        <header class="flex flex-col md:flex-row items-center justify-between px-8 py-4">
             <a href="#"><img src="{{ asset('img/logo-budzet-obywatelski.svg') }}" alt="logo"></a>
-            <div class="flex items-center">
+            <div class="flex items-center mt-2 md:mt-0">
                 @if (Route::has('login'))
                     <div class="px-6 py-4">
                         @auth
@@ -30,7 +30,7 @@
                                 <a href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
                                                     this.closest('form').submit();">
-                                    {{ __('Log out') }}
+                                    {{ __('Wyloguj się') }}
                                 </a>
                             </form>
                         @else
@@ -48,9 +48,9 @@
             </div>
         </header>
 
-        <main class="container mx-auto max-w-custom flex">
-            <div class="w-70 mr-5">
-                <div class="border-2 sticky top-8 border-red-700 bg-white rounded-xl mt-16">
+        <main class="container mx-auto max-w-custom flex flex-col md:flex-row">
+            <div class="w-70 mx-auto md:mx-0 md:mr-5">
+                <div class="border-2 md:sticky top-8 border-red-700 bg-white rounded-xl mt-16">
                     <div class="text-center px-6 py-2 pt-6">
                         <h3 class="font-semibold text-base">Dodaj swój pomysł</h3>
                         <p class="text-xs mt-4">
@@ -72,7 +72,7 @@
                                 href="{{ route('login') }}"
                                 class="inline-block justify-center w-1/2 h-11 text-xs bg-red-700 text-white font-semibold rounded-xl border border-red-700 hover:bg-red-900 transition duration-150 ease-in px-6 py-3"
                             >
-                                <span class="ml-1">Login</span>
+                                <span class="ml-1">Logowanie</span>
                             </a>
                             <a
                                 href="{{ route('register') }}"
@@ -85,7 +85,7 @@
 
                 </div>
             </div>
-            <div class="w-175">
+            <div class="w-full px-2 md:px-0 md:w-175">
                 <livewire:status-filters />
                 <div class="mt-8">
                     {{ $slot }}
