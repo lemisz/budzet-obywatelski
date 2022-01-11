@@ -1,0 +1,56 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+[x-cloak] {
+    display: none !important;
+}
+
+/* pionowa linia po lewej stronie komentarzy */
+.komentarze-container::before {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -40px;
+    content: "";
+    width: 3px;
+    height: 100%;
+    background: #E5E7EB;
+}
+
+/* pozioma linia po lewej stronie komentarza */
+.komentarz-container::before {
+    position: absolute;
+    display: block;
+    top: 57px;
+    content: "";
+    width: 23px;
+    height: 3px;
+    background: #E5E7EB;
+    left: -40px;
+}
+
+/* usuwa ostatnią pionową linię (skraca ją odpowiednio) */
+.komentarz-container:last-child::after {
+    position: absolute;
+    display: block;
+    top: 60px;
+    left: -40px;
+    content: "";
+    width: 3px;
+    height: calc(100% - 60px);
+    background: #F3F4F6;
+}
+
+/* pokazuje kropkę przy komentarzach admina zmieniających status pomysłu */
+.is-admin::before {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    border-radius: 38px;
+    border: 7px solid white;
+    box-shadow: 4px 4px 15px 0 rgba(36, 37, 38, 0.08);
+    left: -58px;
+    background: #15803D;
+    opacity: 1;
+}
