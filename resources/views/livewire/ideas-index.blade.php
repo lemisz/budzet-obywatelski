@@ -49,6 +49,7 @@
     <div class="my-8">
         {{-- Wróci do użytku, jeśli wykorzystam paginację z livewire, póki co - kod poniżej by utrzymać filtrowanie przy przechodzeniu na następną stronę --}}
         {{-- {{ $ideas->links() }} --}}
+        {{-- update - działa jak należy, więc nie ruszam :) --}}
         {{ $ideas->appends(request()->query())->links() }}
     </div>
 </div>
