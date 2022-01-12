@@ -3,6 +3,10 @@
 Projekt platformy służącej do obsługi pomysłów na spożytkowanie środków z budżetu obywatelskiego. Użytkownicy w założeniu mogą się rejestrować, dodawać swoje pomysły, głosować na inne pomysły, przeglądać pomysły za pomocą różnych filtrów i wyszukiwarki, komentować pomysły, zgłaszać je jako spam, usuwać swoje pomysły. Administrator może zmieniać statusy pomysłu.
 
 
+## Screenshoty
+
+![screenshot-1](https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/pierwszy.png)
+
 ### Wykorzystane narzędzia
 
 * [Laravel](https://laravel.com)
@@ -22,7 +26,7 @@ Projekt platformy służącej do obsługi pomysłów na spożytkowanie środków
 * Logowanie
 * Przekierowywanie niezalogowanego użytkownika do logowania (gdy chce skorzystać z funkcjonalności dla niego niedostępnych)
 
-* Layout - w całości, responsywny
+* Layout - w 100% responsywny, a także całościowy (również dla niezaimplementowanych funcjonalności)
 * Formularz "Dodaj nowy pomysł", łącznie z walidacją, komunikatami błędów i przekierowaniem niezalogowanego użytkownika
 
 * Karta pomysłu na stronie głównej z dynamiczną liczbą głosów, czasem dodania pomysłu
