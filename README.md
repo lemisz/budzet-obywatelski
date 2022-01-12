@@ -17,7 +17,7 @@ Szczegóły karty pomysłu:
 ![screenshot-1](https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/czwarty.png)
 
 Wersja mobilna:</br>
-<img src="https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/piaty.png" width=30% height=30%><p> </p> <img src="https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/szosty.png" width=30% height=30%></br>
+<img src="https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/piaty.png" width=30% height=30%> <img src="https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/szosty.png" width=30% height=30%></br>
 ### Wykorzystane narzędzia
 
 * [Laravel](https://laravel.com)
