@@ -16,10 +16,9 @@ Po zalogowaniu i wybraniu jednego z filtrów:
 Szczegóły karty pomysłu:
 ![screenshot-1](https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/czwarty.png)
 
-Wersja mobilna:
-<img src="https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/piaty.png" width=50% height=50%> <img src="https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/szosty.png" width=50% height=50%>
-
-### Wykorzystane narzędzia
+Wersja mobilna:</br>
+<img src="https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/piaty.png" width=30% height=30%> <img src="https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/szosty.png" width=30% height=30%>
+3### Wykorzystane narzędzia
 
 * [Laravel](https://laravel.com)
 * [Laravel Breeze](https://github.com/laravel/breeze)
