@@ -17,7 +17,7 @@ Szczegóły karty pomysłu:
 ![screenshot-1](https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/czwarty.png)
 
 Wersja mobilna:
-![screenshot-1](https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/piaty.png) ![screenshot-1](https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/szosty.png)
+<img src="https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/piaty.png" width=50% height=50%> <img src="https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/szosty.png" width=50% height=50%>
 
 ### Wykorzystane narzędzia
 
