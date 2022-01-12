@@ -51,8 +51,8 @@ Projekt platformy służącej do obsługi pomysłów na spożytkowanie środków
 * Xampp - wypakować do budżet-obywatelski w folderze xampp/htdocs
 * Dodać plik .env (+nazwa bazy danych "budzet-obywatelski")
 * Skonfigurować bazę danych (wystarczy utworzyć bazę danych o nazwie "budżet obywatelski"
-* npm install
-* npm run dev
-* php artisan migrate
-* php artisan serve
-* adres - localhost:8000
+* ```npm install
+* ```npm run dev
+* ```php artisan migrate:fresh --seed
+* ```php artisan serve
+* adres webaplikacji - localhost:8000
