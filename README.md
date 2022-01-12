@@ -8,13 +8,13 @@ Ekran główny aplikacji:
 ![screenshot-1](https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/pierwszy.png)
 
 Logowanie:
-![screenshot-1](https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/drugi.png)
+![screenshot-2](https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/drugi.png)
 
 Po zalogowaniu i wybraniu jednego z filtrów:
-![screenshot-1](https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/trzeci.png)
+![screenshot-3](https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/trzeci.png)
 
 Szczegóły karty pomysłu:
-![screenshot-1](https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/czwarty.png)
+![screenshot-4](https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/czwarty.png)
 
 Wersja mobilna:</br>
 <img src="https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/piaty.png" width=30% height=30%> <img src="https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/szosty.png" width=30% height=30%></br>
@@ -91,3 +91,8 @@ Wersja mobilna:</br>
     php artisan serve
     ```
 8. Adres webaplikacji - localhost:8000
+
+
+### ER Diagram - model bazy danych
+
+![screenshot-5](https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/er_diagram.png)
