@@ -25,6 +25,7 @@ Wersja mobilna:</br>
 * [Laravel Livewire](https://laravel-livewire.com/)
 * [Eloquent Sluggable](https://github.com/cviebrock/eloquent-sluggable)
 * [Tailwind CSS](https://tailwindcss.com/)
+* [Tailwind package line-clamp](https://github.com/tailwindlabs/tailwindcss-line-clamp)
 * [Alpine.js](https://alpinejs.dev/)
 * [Node.js](https://nodejs.org/)
 
