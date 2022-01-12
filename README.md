@@ -5,34 +5,41 @@ Projekt platformy służącej do obsługi pomysłów na spożytkowanie środków
 
 ### Wykorzystane narzędzia
 
-* Laravel
-* Laravel Breeze
-* Laravel Livewire
-* Eloquent Sluggable
-* Tailwind CSS
-* Alpine.js
-* Node.js
+* [Laravel](https://laravel.com)
+* [Laravel Breeze](https://github.com/laravel/breeze)
+* [Laravel Livewire](https://laravel-livewire.com/)
+* [Eloquent Sluggable](https://github.com/cviebrock/eloquent-sluggable)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Alpine.js](https://alpinejs.dev/)
+* [Node.js](https://nodejs.org/)
 
 
 ## Funkcjonalności
 
 ### Działa:
 
-* Rejestracja użytkownika (prosta)
-* Logowanie (proste)
+* Rejestracja użytkownika
+* Logowanie
 * Przekierowywanie niezalogowanego użytkownika do logowania (gdy chce skorzystać z funkcjonalności dla niego niedostępnych)
-* Layout - w całości, ale nie jest responsywny
-* Formularz "Dodaj nowy pomysł", łącznie z walidacją
-* Karta pomysłu - przechodzenie do szczegółów z widoku głównego
+
+* Layout - w całości, responsywny
+* Formularz "Dodaj nowy pomysł", łącznie z walidacją, komunikatami błędów i przekierowaniem niezalogowanego użytkownika
+
+* Karta pomysłu na stronie głównej z dynamiczną liczbą głosów, czasem dodania pomysłu
+* Karta pomysłu - przechodzenie do szczegółów z widoku głównego (tytuł pomysłu jako link)
+
 * Głosowanie - oddawanie głosu na pomysły dla zalogowanego użytkownika
-* Sumowanie głosów
+* Sumowanie głosów, dynamiczne wyświetlanie liczby głosów
+* Odejmowanie swojego głosu poprzez ponowne naciśnięcie dynamicznego buttona
+
 * Filtrowanie pomysłów po statusie
 * Filtrowanie pomysłów po kategorii
 * Sortowanie pomysłów wg. dodatkowego filtra "najlepsze"
 * Filtrowanie pomysłów wg. dodatkowego filtra "moje" dla zalogowanego użytkownika
+* Łączne filtrowanie po wszystkich powyższych filtrach na raz
+
 * Sumowanie pomysłów w danej kategorii wyświetlane przy filtrze statusu
-* Combo filtrowania za pomocą wszystkich powyższych na raz
-* Wyszukiwanie pomysłów za pomocą wyszukiwarki (po tytułach), łącznie z walidacją (minimum 3 znaki)
+* Wyszukiwanie pomysłów za pomocą wyszukiwarki (po tytułach), łącznie z walidacją (minimum 3 znaki) i wyświetlaniem powiadomienia o ewentualnym nieznalezieniu pomysłu
 
 ### Nie działa (choć jest już w layoucie):
 
@@ -43,7 +50,7 @@ Projekt platformy służącej do obsługi pomysłów na spożytkowanie środków
 * Usuwanie pomysłu
 * Zgłaszanie pomysłu jako spam
 * Powiadomienia o zmianie statusu pomysłu dla głosujących na dany pomysł
-* Kompletna polska wersja językowa (przykład - funkcja diffForHumans(), na karcie pomysłu czas utworzenia wyświetla się po angielsku)
+* Kompletna polska wersja językowa (funkcja diffForHumans(), na karcie pomysłu czas utworzenia wyświetla się po angielsku)
 
 
 ### Instalacja
