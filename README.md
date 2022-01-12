@@ -4,8 +4,20 @@ Projekt platformy służącej do obsługi pomysłów na spożytkowanie środków
 
 
 ## Screenshoty
-
+Ekran główny aplikacji:
 ![screenshot-1](https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/pierwszy.png)
+
+Logowanie:
+![screenshot-1](https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/drugi.png)
+
+Po zalogowaniu i wybraniu jednego z filtrów:
+![screenshot-1](https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/trzeci.png)
+
+Szczegóły karty pomysłu:
+![screenshot-1](https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/czwarty.png)
+
+Wersja mobilna:
+![screenshot-1](https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/piaty.png) ![screenshot-1](https://github.com/lemisz/budzet-obywatelski/blob/main/screenshots/szosty.png)
 
 ### Wykorzystane narzędzia
 
